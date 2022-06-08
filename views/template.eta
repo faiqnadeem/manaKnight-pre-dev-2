@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body style="background-color:cadetblue; color:white">
+  
+<div class="container-fluid text-center">
+  <h1>My Custom weather App</h1>      
+  <p>Severe weather alerts, live radar and satellite, hourly forecasts <br> long-term outlooks make MyForecast the go-to app to know what is going to happen in the next few hours <br> days or weeks.</p>          
+</div>
+
+<div class="container-fluid text-center">
+  <h1>31 C</h1> 
+  <p>Lahore</p>        
+</div>
+
+<div class="container col-lg-12 col-md-12 text-center">  
+<div class="row">
+	<div class="col-lg-6 col-md-6">                  
+		<div class="dropdown">
+			<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Select Airport 1
+			<span class="caret"></span></button>
+			<ul class="dropdown-menu">
+			<li><a href="#">Dubai</a></li>
+			<li><a href="#">Pakistan</a></li>
+			<li><a href="#">India</a></li>
+			</ul>
+		</div>   
+  </div> 
+	 <div class="col-lg-6 col-md-6">                  
+		<div class="dropdown">
+			<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Select Airport 2
+			<span class="caret"></span></button>
+			<ul class="dropdown-menu">
+			<li><a href="#">Dubai</a></li>
+			<li><a href="#">Pakistan</a></li>
+			<li><a href="#">India</a></li>
+			</ul>
+		</div>   
+  </div>  
+</div> 
+</div>            
+
+</body>
+</html>
